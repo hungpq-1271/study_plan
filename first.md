@@ -10,12 +10,43 @@
 
 ### #1 Database construction
 - [ ] data type
+  - [x] char vs varchar vs text
+  - [x] tinyInt vs smallInt vs mediumInt vs Int vs bigInt
+  - [ ] float vs double vs real
+  - [x] date vs datetime
 - [ ] index
+  - [x] primary key vs primary key constraint
 - [ ] constraint
 - [ ] meta data
 - [ ] crud table
+  - [x] create table with varchar & integer (wallets)
+  - [x] create table with float (strikes)
+  - [x] create table with date & datetime (todos)
+  - [x] create table with primary key (computers)
+  - [ ] create table with foreign key
+  - [x] create table with not nullable column (computers)
+  - [x] create table with enum column (computers)
+  - [x] create table with auto increment index
+  - [x] create table with unsigned data (person)
+  - [x] add primary key to a column
+  - [ ] add foreign key to a column
+  - [x] add a new column
+  - [ ] modify type of a column
+  - [ ] modify data range of a column
+  - [ ] add more enum type to a column
+  - [ ] remove a primary key
+  - [ ] remove a column
+  - [ ] remove a table
+  - [ ] show all keys of a table
 - [ ] crud data
-- [ ] set up mysql
+  - [ ] insert a new row
+  - [ ] update a row
+  - [ ] delete a row
+  - [ ] delete all rows
+  - [ ] update a whole column
+  - [ ] update multiple rows
+  - [ ] delete multiple rows
+- [x] set up mysql
 - [ ] set up postgres
 - [ ] postgres vs mysql
 - [ ] active_record:migration

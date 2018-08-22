@@ -9,46 +9,70 @@
 > _This is my first trial. Have fun!_
 
 ### #1 Database construction
-- [ ] data type
+- [x] data type
   - [x] char vs varchar vs text
   - [x] tinyInt vs smallInt vs mediumInt vs Int vs bigInt
-  - [ ] float vs double vs real
+  - [x] decimal vs float/double
+  - [x] float vs double
+  - [x] numeric vs floating-point
   - [x] date vs datetime
+  - [x] datetime vs timestamp
 - [ ] index
   - [x] primary key vs primary key constraint
+  - [ ] unique
+  - [ ] multicolumn
+  - [ ] b-tree index
+  - [ ] bitmap index
+  - [ ] text index
+  - [ ] naming index
+  - [ ] pros
 - [ ] constraint
-- [ ] meta data
-- [ ] crud table
+  - [ ] not null
+  - [ ] unique
+  - [ ] primary key
+  - [ ] foreign key
+  - [ ] check
+  - [ ] default
+  - [ ] index
+  - [ ] cascade
+  - [ ] auto generate constraint conditions
+  - [ ] create a constraint
+- [x] meta data
+  - [x] information schema
+- [x] crud table
   - [x] create table with varchar & integer (wallets)
   - [x] create table with float (strikes)
   - [x] create table with date & datetime (todos)
   - [x] create table with primary key (computers)
-  - [ ] create table with foreign key
+  - [x] create table with foreign key
   - [x] create table with not nullable column (computers)
   - [x] create table with enum column (computers)
   - [x] create table with auto increment index
   - [x] create table with unsigned data (person)
+  - [x] add column with default value
   - [x] add primary key to a column
-  - [ ] add foreign key to a column
+  - [x] add foreign key to a column
+  - [x] add a unique column
   - [x] add a new column
-  - [ ] modify type of a column
-  - [ ] modify data range of a column
-  - [ ] add more enum type to a column
-  - [ ] remove a primary key
-  - [ ] remove a column
-  - [ ] remove a table
-  - [ ] show all keys of a table
-- [ ] crud data
-  - [ ] insert a new row
-  - [ ] update a row
-  - [ ] delete a row
-  - [ ] delete all rows
-  - [ ] update a whole column
-  - [ ] update multiple rows
-  - [ ] delete multiple rows
+  - [x] modify type of a column
+  - [x] modify data range of a column
+  - [x] add more enum type to a column
+  - [x] remove a primary key
+  - [x] remove a foreign key
+  - [x] remove a column
+  - [x] remove a table
+  - [x] show all keys(index) of a table
+- [x] crud data
+  - [x] insert a new row
+  - [x] update a row
+  - [x] delete a row
+  - [x] delete all rows
+  - [x] update a whole column
+  - [x] update multiple rows
+  - [x] delete multiple rows
 - [x] set up mysql
-- [ ] set up postgres
-- [ ] postgres vs mysql
+- [x] set up postgres
+- [x] postgres vs mysql
 - [ ] active_record:migration
 
 ### #2 Query & filtering

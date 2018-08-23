@@ -78,3 +78,4 @@ rails:
   - config
   - kaminari
   - enumerize
+sql tunning: ...
